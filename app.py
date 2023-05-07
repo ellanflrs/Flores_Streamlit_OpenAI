@@ -23,10 +23,10 @@ def main():
     st.set_page_config(page_title="C++ Tutorial App")
     st.title("C++ Tutorial App - Generate Code for Basic Programming Tasks")
     st.text("by: Ellan V. Flores BSCS 3A")
-    instructions = ['1. code for a factorial function',
-                    '2. code to sort an array using bubble sort algorithm',
-                    '3. code for a linked list data structure',
-                    '4. code to read and write files in C++']
+    instructions = ['1. Code for a factorial function',
+                    '2. Code to sort an array using bubble sort algorithm',
+                    '3. Code for a linked list data structure',
+                    '4. Code to read and write files in C++']
 
     str_inst = ''
     count = 0
