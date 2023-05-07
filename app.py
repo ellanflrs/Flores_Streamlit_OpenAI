@@ -1,8 +1,9 @@
 import streamlit as st
 import openai
-import os
 
-openai.api_key = "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"
+# Set up the OpenAI API
+openai.api_key = st.secrets["openai_api_key"]
+
 
 def generate_code(input_string):
     response = openai.Completion.create(
@@ -47,3 +48,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
