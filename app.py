@@ -17,7 +17,7 @@ def generate_code(input_string):
         stop=None,
     )
     answer = response.choices[0].text.strip()
-    return answer.replace('\n', ' ')
+    return answer
 
 def main():
     st.set_page_config(page_title="C++ Tutorial App")
